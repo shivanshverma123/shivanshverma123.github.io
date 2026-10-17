@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>MeterSplit – split one electricity bill across flats</title>
+    <meta
+      name="description"
+      content="MeterSplit splits a single apartment electricity bill fairly across flats using each flat's sub-meter readings."
+    />
+    <!-- Google Search Console: if you verify with a meta tag, paste it right here -->
+    <style>
+      :root {
+        --bg: #f3f5fb;
+        --card: #fff;
+        --text: #111827;
+        --sub: #6b7280;
+        --pri: #4f46e5;
+        --bd: #e5e7eb;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0e1020;
+          --card: #181b30;
+          --text: #f3f4f6;
+          --sub: #9ca3af;
+          --pri: #a5b4fc;
+          --bd: #2a2f4d;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font:
+          16px/1.65 system-ui,
+          -apple-system,
+          Segoe UI,
+          Roboto,
+          sans-serif;
+      }
+      main {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 28px 18px 60px;
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--bd);
+        border-radius: 20px;
+        padding: 22px;
+        margin: 16px 0;
+      }
+      h1 {
+        font-size: 30px;
+        margin: 8px 0;
+      }
+      h2 {
+        font-size: 19px;
+        margin: 0 0 8px;
+      }
+      p,
+      li {
+        color: var(--text);
+      }
+      .sub {
+        color: var(--sub);
+      }
+      a {
+        color: var(--pri);
+      }
+      .logo {
+        width: 64px;
+        height: 64px;
+        border-radius: 20px;
+        background: linear-gradient(160deg, #1e1b4b, #4f46e5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 32px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="logo">⚡</div>
+      <h1>MeterSplit</h1>
+      <p class="sub">
+        Split one apartment electricity bill fairly across flats.
+      </p>
+      <div class="card">
+        <h2>What it does</h2>
+        <p>
+          When an apartment has a single main electricity meter and each flat
+          has its own sub-meter, MeterSplit works out each flat's share of the
+          bill: it divides the total bill by the main meter's units to get a
+          per-unit rate, then multiplies it by each flat's units. You can then
+          send each flat its bill, and optionally a rent request, on WhatsApp.
+        </p>
+      </div>
+      <div class="card">
+        <h2>Features</h2>
+        <ul>
+          <li>
+            Unlimited apartments and flats, with each month's readings kept on
+            your phone
+          </li>
+          <li>Works fully offline, protected by a 4-digit MPIN</li>
+          <li>
+            Optional backup to your own Google Drive so your data can be
+            restored on a new phone
+          </li>
+          <li>Dark mode, and bills sent through WhatsApp</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>How the app uses your Google account</h2>
+        <p>
+          You sign in with Google to identify your account and to back up your
+          data to a private, hidden application folder in
+          <strong>your own</strong> Google Drive (the
+          <code>drive.appdata</code> permission). The app cannot see your other
+          Drive files, and the developer never receives your data. Details are
+          in the <a href="privacy.html">Privacy Policy</a>.
+        </p>
+      </div>
+      <p class="sub">
+        <a href="privacy.html">Privacy Policy</a> &nbsp;•&nbsp; Contact:
+        <a href="mailto:shivanshverma123@gmail.com"
+          >Shivanshverma123@gmail.com</a
+        >
+      </p>
+    </main>
+  </body>
+</html>
